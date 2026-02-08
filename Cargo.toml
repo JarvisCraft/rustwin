@@ -9,6 +9,10 @@ leptos = { version = "0.8.15", features = ["csr"] }
 leptos-use = { version = "0.18.0", features = ["use_timestamp"] }
 humantime = "2.3"
 rand = "0.10.0"
+leptos_i18n = { version = "0.6.0", features = ["csr", "cookie"] }
+
+[build-dependencies]
+leptos_i18n_build = { version = "0.6.0", features = ["csr"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 getrandom = { version = "0.4.1", features = ["wasm_js"] }

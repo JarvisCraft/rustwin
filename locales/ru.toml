@@ -1,0 +1,8 @@
+title = "РАСТПОБЕДА"
+switch_locale = "Переключить язык"
+
+rustwin_duration = "РАСТПОБЕДА длится уже {{ duration }}"
+
+the_crabs = "Крабы"
+add_ferris = "Добавить Ферриса"
+remove_ferris = "Убрать Ферриса"

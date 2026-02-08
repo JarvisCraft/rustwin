@@ -1,0 +1,8 @@
+title = "RUSTWIN"
+switch_locale = "Switch locale"
+
+rustwin_duration = "It's already been RUSTWIN for {{ duration }}"
+
+the_crabs = "The Crabs"
+add_ferris = "Add Ferris"
+remove_ferris = "Remove Ferris"
