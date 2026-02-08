@@ -1,0 +1,7 @@
+.crab {
+    transition: transform 1.5s ease;
+}
+
+.crab:hover {
+    transform: rotate(360deg);
+}

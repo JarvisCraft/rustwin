@@ -1,0 +1,3 @@
+# rustwin
+
+Rust win forever

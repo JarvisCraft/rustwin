@@ -1,0 +1,14 @@
+[package]
+name = "rustwin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+leptos = { version = "0.8.15", features = ["csr"] }
+leptos-use = { version = "0.18.0", features = ["use_timestamp"] }
+humantime = "2.3"
+rand = "0.10.0"
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.4.1", features = ["wasm_js"] }
