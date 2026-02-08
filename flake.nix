@@ -50,6 +50,7 @@
             packages = with pkgs; [
               rust
               trunk-ng
+              pinact
             ];
           };
           pre-commit.settings = {
@@ -69,6 +70,7 @@
               };
               check-toml.enable = true;
               taplo.enable = true;
+              actionlint.enable = true;
             };
           };
         };
