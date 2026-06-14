@@ -12,7 +12,7 @@ console_error_panic_hook = "0.1.7"
 leptos = { version = "0.8.15", features = ["csr"] }
 leptos-use = { version = "0.18.0", features = ["use_timestamp"] }
 humantime = "2.3"
-rand = "0.10.0"
+rand = "0.10.1"
 leptos_i18n = { version = "0.6.0", features = ["csr", "cookie"] }
 
 [build-dependencies]
